@@ -27,9 +27,9 @@ if platform == "android":
   request_permissions([Permission.READ_EXTERNAL_STORAGE, Permission.CAMERA, Permission.WRITE_EXTERNAL_STORAGE])
 
 
-if platform not in ('android', 'ios'):
-  Config.set('graphics', 'resizable', '0')
-  Window.size = (310, 520)
+# if platform not in ('android', 'ios'):
+#   Config.set('graphics', 'resizable', '0')
+#   Window.size = (310, 520)
 
 
 class TrackerApp(MDApp):

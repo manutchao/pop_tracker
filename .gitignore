@@ -65,6 +65,7 @@ coverage.xml
 
 # buildozer
 .buildozer/
+/app/.buildozer
 
 # pyenv
 .python-version
