@@ -13,22 +13,22 @@ build_time_vars = {'ABIFLAGS': '',
  'BINDIR': '/usr/local/bin',
  'BINLIBDEST': '/usr/local/lib/python3.8',
  'BLDLIBRARY': '-L. -lpython3.8',
- 'BLDSHARED': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang '
+ 'BLDSHARED': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang '
               '-shared '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-              '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+              '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
               '-march=armv7-a -Wl,--fix-cortex-a8  '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-              '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-              '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib',
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+              '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+              '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib',
  'BUILDEXE': '',
  'BUILDPYTHON': 'python',
  'BUILD_GNU_TYPE': 'x86_64-pc-linux-gnu',
  'BYTESTR_DEPS': '\\',
- 'CC': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
+ 'CC': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
  'CCSHARED': '',
  'CFLAGS': '-mfloat-abi=softfp -mfpu=vfpv3-d16 -Wno-unused-result '
            '-Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall '
@@ -45,16 +45,16 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Wno-missing-field-initializers '
                             '-Wstrict-prototypes '
                             '-Werror=implicit-function-declaration',
- 'CONFIGURE_CPPFLAGS': '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                       '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                       '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                       '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                       '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                       '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include',
- 'CONFIGURE_LDFLAGS': '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-                      '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-                      '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-                      '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+ 'CONFIGURE_CPPFLAGS': '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                       '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                       '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                       '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                       '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                       '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include',
+ 'CONFIGURE_LDFLAGS': '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+                      '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+                      '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+                      '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
                       '-march=armv7-a -Wl,--fix-cortex-a8',
  'CONFIGURE_LDFLAGS_NODIST': '',
  'CONFIG_ARGS': "'--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' "
@@ -63,44 +63,44 @@ build_time_vars = {'ABIFLAGS': '',
                 "'ac_cv_little_endian_double=yes' '--prefix=/usr/local' "
                 "'--exec-prefix=/usr/local' "
                 "'--enable-loadable-sqlite-extensions' "
-                "'--with-openssl=/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' "
+                "'--with-openssl=/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' "
                 "'build_alias=x86_64-pc-linux-gnu' "
                 "'host_alias=arm-linux-androideabi' "
-                "'CC=/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' "
+                "'CC=/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' "
                 "'CFLAGS=-fPIC -DANDROID -D__ANDROID_API__=21' 'LDFLAGS= "
-                '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-                '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-                '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-                "-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib' "
+                '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+                '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+                '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+                "-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib' "
                 "'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS= "
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                "-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include' "
-                "'PKG_CONFIG_PATH=/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi'",
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                "-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include' "
+                "'PKG_CONFIG_PATH=/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi'",
  'CONFINCLUDEDIR': '/usr/local/include',
  'CONFINCLUDEPY': '/usr/local/include/python3.8',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/coverage.info',
- 'COVERAGE_REPORT': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/lcov-report',
+ 'COVERAGE_INFO': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/coverage.info',
+ 'COVERAGE_REPORT': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-             '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include  '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-             '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include',
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+             '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include  '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+             '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include',
  'CXX': 'c++',
  'DESTDIRS': '/usr/local /usr/local/lib /usr/local/lib/python3.8 '
              '/usr/local/lib/python3.8/lib-dynload',
@@ -576,34 +576,34 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'c++ -shared',
- 'LDFLAGS': '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-            '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-            '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-            '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+ 'LDFLAGS': '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+            '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+            '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+            '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
             '-march=armv7-a -Wl,--fix-cortex-a8  '
-            '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-            '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-            '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-            '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib',
+            '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+            '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+            '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+            '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib',
  'LDFLAGS_NODIST': '',
  'LDLIBRARY': 'libpython3.8.so',
  'LDLIBRARYDIR': '',
- 'LDSHARED': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang '
+ 'LDSHARED': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang '
              '-shared '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-             '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+             '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
              '-march=armv7-a -Wl,--fix-cortex-a8  '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-             '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-             '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib',
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+             '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+             '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib',
  'LDVERSION': '3.8',
  'LIBC': '',
  'LIBDEST': '/usr/local/lib/python3.8',
  'LIBDIR': '/usr/local/lib',
- 'LIBFFI_INCLUDEDIR': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include',
+ 'LIBFFI_INCLUDEDIR': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include',
  'LIBM': '-lm',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
@@ -615,12 +615,12 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBRARY_OBJS_OMIT_FROZEN': '\\',
  'LIBS': '-ldl  -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz -lm',
  'LIBSUBDIRS': 'tkinter tkinter/test tkinter/test/test_tkinter \\',
- 'LINKCC': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
+ 'LINKCC': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
  'LINKFORSHARED': '-pie -Xlinker -export-dynamic',
  'LIPO_32BIT_FLAGS': '',
  'LLVM_PROF_ERR': 'no',
  'LLVM_PROF_FILE': 'LLVM_PROFILE_FILE="code-%p.profclangr"',
- 'LLVM_PROF_MERGER': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-profdata '
+ 'LLVM_PROF_MERGER': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-profdata '
                      'merge -output=code.profclangd *.profclangr',
  'LN': 'ln',
  'LOCALMODLIBS': '',
@@ -628,10 +628,10 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP_OBJS': '',
  'MACHDESTLIB': '/usr/local/lib/python3.8',
  'MACOSX_DEPLOYMENT_TARGET': '',
- 'MAINCC': '/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
+ 'MAINCC': '/home/manu/.buildozer/android/platform/android-ndk-r19b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
- 'MAKESETUP': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Modules/makesetup',
+ 'MAKESETUP': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Modules/makesetup',
  'MANDIR': '/usr/local/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
@@ -658,8 +658,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 0,
  'NO_AS_NEEDED': '-Wl,--no-as-needed',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include',
- 'OPENSSL_LDFLAGS': '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/lib',
+ 'OPENSSL_INCLUDES': '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include',
+ 'OPENSSL_LDFLAGS': '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/lib',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPT': '-DNDEBUG -g -fwrapv -O3 -Wall',
  'OTHER_LIBTOOL_OPT': '',
@@ -687,11 +687,11 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHONFRAMEWORKINSTALLDIR': '',
  'PYTHONFRAMEWORKPREFIX': '',
  'PYTHONPATH': '',
- 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build '
+ 'PYTHON_FOR_BUILD': '_PYTHON_PROJECT_BASE=/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build '
                      '_PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) '
                      'PYTHONPATH=$(shell test -f pybuilddir.txt && echo '
-                     '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/`cat '
-                     'pybuilddir.txt`:)/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Lib '
+                     '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build/`cat '
+                     'pybuilddir.txt`:)/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Lib '
                      '_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata__linux_ '
                      'python3.8',
  'PYTHON_FOR_REGEN': 'python3.8',
@@ -706,21 +706,21 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wno-missing-field-initializers '
                              '-Wstrict-prototypes '
                              '-Werror=implicit-function-declaration  '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
                              '-IObjects -IInclude -IPython -I. '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                             '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include  '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                             '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                             '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include  '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                             '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-mfloat-abi=softfp -mfpu=vfpv3-d16 -Wno-unused-result '
               '-Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall '
@@ -730,7 +730,7 @@ build_time_vars = {'ABIFLAGS': '',
                      '-Wno-unused-parameter -Wno-missing-field-initializers '
                      '-Wstrict-prototypes '
                      '-Werror=implicit-function-declaration  '
-                     '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal',
+                     '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-mfloat-abi=softfp -mfpu=vfpv3-d16 -Wno-unused-result '
                    '-Wsign-compare -Wunreachable-code -DNDEBUG -g -fwrapv -O3 '
@@ -738,55 +738,55 @@ build_time_vars = {'ABIFLAGS': '',
                    '-D__ANDROID_API__=21 -std=c99 -Wextra -Wno-unused-result '
                    '-Wno-unused-parameter -Wno-missing-field-initializers '
                    '-Wstrict-prototypes -Werror=implicit-function-declaration  '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
                    '-IObjects -IInclude -IPython -I. '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                   '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include  '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                   '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                   '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include  '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                   '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include '
                    '-DPy_BUILD_CORE',
- 'PY_CORE_LDFLAGS': '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-                    '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-                    '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-                    '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+ 'PY_CORE_LDFLAGS': '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+                    '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+                    '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+                    '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
                     '-march=armv7-a -Wl,--fix-cortex-a8  '
-                    '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-                    '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-                    '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-                    '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib',
+                    '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+                    '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+                    '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+                    '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include  '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include',
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include  '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include',
  'PY_FORMAT_SIZE_T': '"z"',
- 'PY_LDFLAGS': '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-               '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-               '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-               '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib '
+ 'PY_LDFLAGS': '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+               '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+               '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+               '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib '
                '-march=armv7-a -Wl,--fix-cortex-a8  '
-               '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
-               '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
-               '-L/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
-               '-L/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/platforms/android-21/arch-arm/usr/lib',
+               '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a '
+               '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs '
+               '-L/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 '
+               '-L/home/manu/.buildozer/android/platform/android-ndk-r19b/platforms/android-21/arch-arm/usr/lib',
  'PY_LDFLAGS_NODIST': '',
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
@@ -797,21 +797,21 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Wno-unused-result -Wno-unused-parameter '
                         '-Wno-missing-field-initializers -Wstrict-prototypes '
                         '-Werror=implicit-function-declaration  '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include/internal '
                         '-IObjects -IInclude -IPython -I. '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                        '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include  '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
-                        '-I/home/ubuntu/.buildozer/android/platform/android-ndk-r19c/sysroot/usr/include',
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Include '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                        '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include  '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl '
+                        '-I/home/manu/.buildozer/android/platform/android-ndk-r19b/sysroot/usr/include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 1,
  'Py_HASH_ALGORITHM': 0,
@@ -850,7 +850,7 @@ build_time_vars = {'ABIFLAGS': '',
  'SIZEOF__BOOL': 1,
  'SOABI': 'cpython-38',
  'SRCDIRS': 'Parser Objects Python Modules Modules/_io Programs',
- 'SRC_GDB_HOOKS': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/gdb/libpython.py',
+ 'SRC_GDB_HOOKS': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/gdb/libpython.py',
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
  'STRIPFLAG': '-s',
@@ -865,7 +865,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TESTPYTHON': './python',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python '
-               '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/scripts/run_tests.py',
+               '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/scripts/run_tests.py',
  'TESTTIMEOUT': 1200,
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
@@ -873,10 +873,10 @@ build_time_vars = {'ABIFLAGS': '',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': 'python3.8 '
-                '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/scripts/update_file.py',
+                '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'VERSION': '3.8',
- 'VPATH': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3',
+ 'VPATH': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3',
  'WINDOW_HAS_FLAGS': 0,
  'WITH_DECIMAL_CONTEXTVAR': 1,
  'WITH_DOC_STRINGS': 1,
@@ -888,9 +888,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build',
- 'abs_srcdir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3',
+ 'abs_builddir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build',
+ 'abs_srcdir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3',
  'datarootdir': '/usr/local/share',
  'exec_prefix': '/usr/local',
  'prefix': '/usr/local',
- 'srcdir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3'}
+ 'srcdir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3'}

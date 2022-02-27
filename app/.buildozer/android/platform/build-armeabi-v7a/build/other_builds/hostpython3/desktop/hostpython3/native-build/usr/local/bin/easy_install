@@ -1,4 +1,4 @@
-#!/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3
+#!/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==51.3.3','console_scripts','easy_install'
 import re
 import sys

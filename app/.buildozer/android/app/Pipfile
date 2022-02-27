@@ -7,15 +7,18 @@ verify_ssl = true
 
 [packages]
 invoke = "==1.4.1"
-Kivy = "==1.11.1"
-kivy-garden = "*"
+Kivy = "==2.1.0.dev0"
+kivy-Garden = "*"
+kivymd = "*"
 buildozer = "*"
 Cython = "*"
 ffpyplayer = "*"
 python-for-android = "*"
-mysql-connector-python = "*"
-mysql-connector = "*"
-mysql-connector-python-rf = "*"
+"kivy-garden.zbarcam" = "*"
+kivy-garden_qrcode = {qrcode = "*"}
+kivy-garden_xcamera = {xcamera = "*"}
+pillow = "*"
+cmake = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.8"

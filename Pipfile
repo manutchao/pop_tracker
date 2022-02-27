@@ -4,20 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-requests = "*"
-beautifulsoup4 = "*"
-pandas = "*"
-invoke = "==1.4.1"
-Kivy = "==1.11.1"
-kivy-garden = "*"
-buildozer = "*"
-Cython = "*"
-ffpyplayer = "*"
-python-for-android = "*"
-mysql-connector-python = "*"
-mysql-connector = "*"
-mysql-connector-python-rf = "*"
-
 
 [dev-packages]
-pytest = "*"
+
+[requires]
+python_version = "3.8"

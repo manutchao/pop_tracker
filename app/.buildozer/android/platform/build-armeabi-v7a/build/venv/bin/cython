@@ -1,4 +1,4 @@
-#!/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/venv/bin/python
+#!/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

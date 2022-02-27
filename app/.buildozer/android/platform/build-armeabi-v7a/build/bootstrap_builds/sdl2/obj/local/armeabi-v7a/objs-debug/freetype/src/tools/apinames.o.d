@@ -1,2 +1,2 @@
-/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/obj/local/armeabi-v7a/objs-debug/freetype/./src/tools/apinames.o: \
-  /var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype-2.9.1/./src/tools/apinames.c
+/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/obj/local/armeabi-v7a/objs-debug/freetype/./src/tools/apinames.o: \
+  /var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_ttf/external/freetype-2.9.1/./src/tools/apinames.c

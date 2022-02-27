@@ -1,2 +1,2 @@
-/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o: \
-  /var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/jni/../sqlite3.c
+/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o: \
+  /var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/jni/../sqlite3.c

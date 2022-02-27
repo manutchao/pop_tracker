@@ -37,12 +37,12 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFINCLUDEDIR': '/usr/local/include',
  'CONFINCLUDEPY': '/usr/local/include/python3.8',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/coverage.info',
- 'COVERAGE_REPORT': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/lcov-report',
+ 'COVERAGE_INFO': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/coverage.info',
+ 'COVERAGE_REPORT': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--no-branch-coverage --title "CPython lcov '
                             'report"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'CXX': 'g++ -pthread',
  'DESTDIRS': '/usr/local /usr/local/lib /usr/local/lib/python3.8 '
              '/usr/local/lib/python3.8/lib-dynload',
@@ -554,7 +554,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MAINCC': 'gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
- 'MAKESETUP': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/makesetup',
+ 'MAKESETUP': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/makesetup',
  'MANDIR': '/usr/local/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'posix  errno  pwd  _sre  _codecs  _weakref  _functools  '
@@ -619,27 +619,27 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wno-unused-result -Wno-unused-parameter '
                              '-Wno-missing-field-initializers '
                              '-Werror=implicit-function-declaration  '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                              '-IObjects -IInclude -IPython -I. '
-                             '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                             '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall',
  'PY_CFLAGS_NODIST': '-std=c99 -Wextra -Wno-unused-result '
                      '-Wno-unused-parameter -Wno-missing-field-initializers '
                      '-Werror=implicit-function-declaration  '
-                     '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal',
+                     '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 '
                    '-Wall -std=c99 -Wextra -Wno-unused-result '
                    '-Wno-unused-parameter -Wno-missing-field-initializers '
                    '-Werror=implicit-function-declaration  '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                    '-IObjects -IInclude -IPython -I. '
-                   '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                   '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+                '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '',
  'PY_LDFLAGS_NODIST': '',
@@ -649,9 +649,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-O3 -Wall -std=c99 -Wextra -Wno-unused-result '
                         '-Wno-unused-parameter -Wno-missing-field-initializers '
                         '-Werror=implicit-function-declaration  '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                         '-IObjects -IInclude -IPython -I. '
-                        '-I/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+                        '-I/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
  'Py_HASH_ALGORITHM': 0,
@@ -690,7 +690,7 @@ build_time_vars = {'ABIFLAGS': '',
  'SIZEOF__BOOL': 1,
  'SOABI': 'cpython-38-x86_64-linux-gnu',
  'SRCDIRS': 'Parser Objects Python Modules Modules/_io Programs',
- 'SRC_GDB_HOOKS': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/gdb/libpython.py',
+ 'SRC_GDB_HOOKS': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/gdb/libpython.py',
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
  'STRIPFLAG': '-s',
@@ -705,7 +705,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TESTPYTHON': './python',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python '
-               '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/run_tests.py',
+               '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/run_tests.py',
  'TESTTIMEOUT': 1200,
  'TIMEMODULE_LIB': 0,
  'TIME_WITH_SYS_TIME': 1,
@@ -713,10 +713,10 @@ build_time_vars = {'ABIFLAGS': '',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
  'UPDATE_FILE': 'python3.8 '
-                '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/update_file.py',
+                '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'VERSION': '3.8',
- 'VPATH': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
+ 'VPATH': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
  'WINDOW_HAS_FLAGS': 1,
  'WITH_DECIMAL_CONTEXTVAR': 1,
  'WITH_DOC_STRINGS': 1,
@@ -728,9 +728,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build',
- 'abs_srcdir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
+ 'abs_builddir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build',
+ 'abs_srcdir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
  'datarootdir': '/usr/local/share',
  'exec_prefix': '/usr/local',
  'prefix': '/usr/local',
- 'srcdir': '/var/www/kivy/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3'}
+ 'srcdir': '/var/www/pop_tracker/app/.buildozer/android/platform/build-armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3'}

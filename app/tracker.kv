@@ -1,0 +1,116 @@
+#:import get_color_from_hex kivy.utils.get_color_from_hex
+#:import FadeTransition kivy.uix.screenmanager.FadeTransition
+#:import ZBarCam kivy_garden.zbarcam.ZBarCam
+#:import ZBarSymbol pyzbar.pyzbar.ZBarSymbol
+
+MDBoxLayout:
+    orientation: "vertical"
+
+
+    MDBottomNavigation:
+        id: panel
+
+        MDBottomNavigationItem:
+            name: "files1"
+            text: "Python"
+            icon: "language-python"
+
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                spacing: dp(10)
+                pos_hint: {"center_x": .5, "center_y": .5}
+
+                MDLabel:
+                    font_style: "Body1"
+                    theme_text_color: "Primary"
+                    text: "Toggle to set custom panel color"
+                    halign: "center"
+
+            BoxLayout:
+                orientation: 'vertical'
+                ZBarCam:
+                    id: zbarcam
+                    #optional, by default checks all types
+                    code_types: ZBarSymbol.QRCODE, ZBarSymbol.EAN13
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.75}
+                    size_hint: [1, 1]
+
+
+
+
+        MDBottomNavigationItem:
+            name: "files2"
+            text: "C++"
+            icon: "language-cpp"
+
+            MDLabel:
+                font_style: "Body1"
+                theme_text_color: "Primary"
+                text: "I programming of C++"
+                halign: "center"
+
+
+        MDBottomNavigationItem:
+            name: "files3"
+            text: "JS"
+            icon: "language-javascript"
+
+            MDLabel:
+                font_style: "Body1"
+                theme_text_color: "Primary"
+                text: "Oh god JS again"
+                halign: "center"
+
+
+
+
+
+
+
+#
+# MDScreen:
+#
+#
+#     MDBottomNavigation:
+#         panel_color: get_color_from_hex("#eeeaea")
+#         selected_color_background: get_color_from_hex("#97ecf8")
+#         text_color_active: 0, 0, 0, 1
+#
+#
+#         MDBottomNavigationItem:
+#             name: 'screen'
+#             icon: 'gmail'
+#             badge_icon: "numeric-10"
+#
+#             MDRectangleFlatButton:
+#                 text: "Collection"
+#                 theme_text_color: "Custom"
+#                 pos_hint: {"center_x": .5, "center_y": .3}
+#
+#             MDRectangleFlatButton:
+#                 text: "Scanner"
+#                 theme_text_color: "Custom"
+#                 pos_hint: {"center_x": .5, "center_y": .5}
+#
+#
+#
+#         MDBottomNavigationItem:
+#             name: 'screen 2'
+#             icon: 'discord'
+#             badge_icon: "numeric-5"
+#
+#             MDLabel:
+#                 text: 'Discord'
+#                 halign: 'center'
+#
+#
+#
+#         MDBottomNavigationItem:
+#             name: 'screen 3'
+#             icon: 'linkedin'
+#
+#             MDLabel:
+#                 text: 'LinkedIN'
+#                 halign: 'center'

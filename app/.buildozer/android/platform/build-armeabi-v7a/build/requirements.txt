@@ -1,1 +1,5 @@
 certifi
+kivy-garden_qrcode
+kivy-garden_xcamera
+kivy_garden.zbarcam
+kivymd
